@@ -51,3 +51,17 @@ os.call(to="函数名",parameters={参数列表});return; #参数列表是向跳
 os.jump(tag="标签名",to="函数名" ,parameters={参数列表});return if os.jumpResult(tag="标签名");
 ```
 
+
+
+## 3.工具函数
+
+```python
+import ADVTemplete as at
+
+at.option([{1:跟她走}，
+           {2:不跟她走}
+          ]) -> 返回key
+at.os("画外音") #画外音
+at.cha("人名","画外音") #一个人说话
+```
+
